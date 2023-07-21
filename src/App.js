@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-
+import Routes from './routes';
 import "./styles.css";
 
-function App() {
+export default function App() {
+
   // React States
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -85,4 +86,4 @@ function App() {
   );
 }
 
-export default App;
+//export default App;

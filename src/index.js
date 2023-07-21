@@ -6,10 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import Header from './Components/Header.js';
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from './Components/Footer.js';
+import Form from "./Components/Form.js";
+import BasicExample from "./Components/BasicExample";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+      <BasicExample />
+      <Form />
       <Header />
         <App />
 
